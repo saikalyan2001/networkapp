@@ -1,0 +1,15 @@
+.container-post {
+    margin-top: 80px;
+}
+
+.p {
+    list-style: none;
+}
+
+.media {
+    border: 1px solid rgba(211, 211, 211, 0.137);
+    width: 400px;
+    height: 400px;
+    padding: 0 60px;
+    border-radius: 3px;
+}

@@ -1,0 +1,47 @@
+.suggested-user-container {
+    font-family: "Roboto", sans-serif;   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.pro-follow {
+    text-decoration: none;
+    background-color: rgb(77, 75, 75);
+    color: rgb(0, 172, 240);
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.pro-follow:hover {
+    color: white;
+}
+
+.suggested-name-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.suggest-info {
+    color: grey;
+    font-size: 12px;
+}
+
+.suggested-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 3px solid rgb(189, 63, 63);
+
+}

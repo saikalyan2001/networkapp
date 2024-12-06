@@ -1,0 +1,37 @@
+.suggested-header-container {
+    font-family: "Roboto", sans-serif;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 120px;
+}
+
+.suggested-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.pro-name {
+    text-decoration: none;
+    color: inherit;
+    font-size: 14px;
+}
+
+.switch-link {
+    text-decoration: none;
+    color: inherit;
+    font-size: 12px;
+    color: rgb(0, 177, 236);
+    margin: 0 0 0  auto;
+}
+
+.switch-link:hover {
+    color: white;
+}
+
+.pro-pic-icon {
+    font-size: 40px;
+    color: white;
+}

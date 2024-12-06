@@ -1,0 +1,91 @@
+.post-footer-container {
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+}
+
+.post-footer-content {
+    display: flex;
+    gap: 10px;
+}
+
+
+.love-icon {
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.love-icon:hover {
+    color: grey;
+}
+
+.comment-icon {
+    font-size: 28px;
+    cursor: pointer;
+    transform: scaleX(-1);
+}
+.comment-icon:hover {
+    color: grey;
+}
+
+.share-icon {
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.share-icon:hover {
+    font-size: 28px;
+    color: grey;
+}
+
+.save-modal-icon {
+    font-size: 23px;
+    cursor: pointer;
+    padding: 0 15px;
+}
+
+.save-modal-icon:hover {
+    color: grey;
+}
+
+.post-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.likes-count {
+    font-size: 16px;
+    margin-top: -15px;
+}
+
+.post-modal-comment {
+    background-color: rgb(61, 60, 60);
+    color: white;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgba(109, 106, 106, 0.432);
+    height: 50px;
+    width: 420px;
+    border-top: 1px solid white;
+}
+
+.comment-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.post-button {
+    margin-left: -50px;
+    font-size: 16px;
+    color: skyblue;
+    cursor: pointer;
+}
+
+.post-button:hover {
+    color: white;
+}
+
+.heart {
+    color: rgb(245, 16, 16);
+}

@@ -1,0 +1,101 @@
+.post-footer-container {
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+
+.love-icon {
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.love-icon:hover {
+    color: grey;
+}
+
+.comment-icon {
+    font-size: 28px;
+    cursor: pointer;
+    transform: scaleX(-1);
+}
+.comment-icon:hover {
+    color: grey;
+}
+
+.share-icon {
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.share-icon:hover {
+    font-size: 28px;
+    color: grey;
+}
+
+.save-icon {
+    font-size: 23px;
+    cursor: pointer;
+    margin: 0 0 0 auto;
+}
+
+.save-icon:hover {
+    color: grey;
+}
+
+.post-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.likes-count {
+    font-size: 16px;
+    margin-top: -15px;
+}
+
+.com-container {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.input-comment {
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgba(109, 106, 106, 0.432);
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.post-button {
+    margin-left: -50px;
+    font-size: 16px;
+    color: skyblue;
+    cursor: pointer;
+}
+
+.post-button:hover {
+    color: white;
+}
+
+.heart {
+    color: rgb(245, 16, 16);
+}
+
+
+.comments {
+    color: grey;
+}

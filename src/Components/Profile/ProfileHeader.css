@@ -1,0 +1,49 @@
+.profile-header-container {
+    font-family: "Roboto", sans-serif;   
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding-top: 40px;
+}
+
+.name-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.pro-edit-btn {
+    background-color: rgb(78, 78, 78);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 8px 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.pro-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.number {
+    margin-right: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.name {
+    font-size: 14px;
+}
+
+.pro-desc {
+    font-size: 14px;
+}
+
+.profile-icon {
+    font-size: 120px;
+}

@@ -1,0 +1,71 @@
+.post-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.post-left-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.post-header-content {
+    display: flex;
+    gap: 5px;
+}
+
+.profile-icon {
+    font-size: 50px;
+    margin-top: -5px;
+}
+
+.profile-name {
+    text-decoration: none;
+    color: inherit;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.audio-text {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.dot {
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: -15px;
+}
+
+.post-date {
+    font-size: 16px;
+    color:  rgb(153, 149, 149);
+}
+
+.follow {
+    font-size:14px;
+    font-weight: 600;
+    color: blue;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+
+.follow:hover {
+    color: white;
+}
+
+.options {
+    font-size: 25px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.post-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}

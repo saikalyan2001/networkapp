@@ -1,0 +1,149 @@
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.navbar {
+    font-family: "Roboto", sans-serif;   
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    border-right: 1px solid rgb(46, 45, 45);
+    padding: 10px 20px;
+    padding-right: 10px;
+    width: 200px;
+    z-index: 999;
+}
+
+.brand-logo {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: inherit; 
+    font-weight: 400;
+    font-size: 15px;
+  }
+
+/* .vertical-line {
+    border-right: 1px solid rgb(46, 45, 45);
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 250px;
+} */
+
+
+.overlay {
+    display: none;
+}
+
+.overlay-active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+
+.close {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+
+.nav-icon {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.profile-nav {
+    width: 25px;
+    border-radius: 50%;
+}
+
+.profile-nav-act {
+    width: 25px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.profile-nav-icon {
+    font-size: 25px;
+    border-radius: 50%;
+}
+
+.profile-nav-act-icon {
+    font-size: 25px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-links.act {
+    font-weight: bold;
+}
+
+.search-icon{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.search-icon.act {
+    font-weight: bold;
+}
+
+.more-icon{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.more-icon.act {
+    font-weight: bold;
+}
+
+.notification-icon{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.notification-icon.act {
+    font-weight: bold;
+}
+
+.logout-btn {
+    cursor: pointer;
+}

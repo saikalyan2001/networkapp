@@ -1,0 +1,126 @@
+.pro-post-container {
+  position: relative;
+  cursor: pointer;
+}
+
+.post-image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.post-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.205);
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.post-overlay:hover {
+  opacity: 1;
+}
+
+.overlay-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile-modal-overlay {
+  display: none;
+}
+
+.profile-modal-overlay-active {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.575);
+  z-index: 999;
+}
+
+.profile-posts-modal {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  background-color: rgb(61, 60, 60);
+}
+
+.modal-pic {
+  width: 550px;
+  height: 550px;
+}
+
+.modal-text-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.modal-profile-name {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.modal-text {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.modal-info-text {
+  font-size: 16px;
+  font-weight: normal;
+  margin-left: 10px;
+}
+
+.main-middle {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  max-height: 350px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 50%;
+}
+
+.modal-date {
+  color: grey;
+  font-size: 14px;
+}
+
+.post-footer {
+  margin-left: 10px;
+}
+
+.post-modal-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.modal-delte-btn {
+  margin: 0 0 0 auto;
+  margin-right: 40px;
+  cursor: pointer;
+}

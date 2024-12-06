@@ -1,0 +1,37 @@
+.suggested-container {
+    font-family: "Roboto", sans-serif;   
+    display: flex;
+    flex-direction: column;
+    padding: 8px 6px;
+    gap: 10px;
+}
+
+.suggested-user-content {
+    font-family: "Roboto", sans-serif;   
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.suggested-p-p {
+    font-weight: bold;
+    color: grey;
+}
+
+.suggested-see-all {
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.suggested-see-all:hover {
+    color: grey;
+}
+
+.copy-right {
+    margin-top: 40px;
+    font-size: 14px;
+    color: grey;
+}

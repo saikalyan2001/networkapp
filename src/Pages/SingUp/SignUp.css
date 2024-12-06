@@ -1,0 +1,122 @@
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    border: 1px solid white;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.login-logo {
+    font-size: 44px;
+    cursor: pointer;
+}
+
+.login-input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.login-input {
+    height: 20px;
+    width: 250px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.login-btn {
+    background-color: rgb(0, 169, 236);
+    color: white;
+    height: 35px;
+    width: 270px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.or-container {
+    display: flex;
+    align-items: center;
+}
+
+.vertical-line {
+    background-color: grey;
+    height: 1px;
+    width: 100px;
+    margin: 0 20px;
+}
+
+.or {
+    color: grey;
+}
+
+.form-bottom-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.login-fb {
+    color: rgb(75, 75, 199);
+    cursor: pointer;
+}
+
+.forgot-pass {
+    font-size: 14px;
+    color: rgb(63, 63, 124);
+    cursor: pointer;
+}
+
+.bottom-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border: 1px solid white;
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.sign-up {
+    color: skyblue;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.password-container {
+    position: relative;
+}
+
+.pass-show {
+    position: absolute;
+    top: -5px;
+    right: 10px;
+    color: black;
+    cursor: pointer;
+}
+
+.alert-container {
+    font-size: 14px !important;
+    border-radius: 25px !important;
+    padding: 2px !important;
+}
+
+.alert-icon {
+    font-size: 12px !important;
+}
